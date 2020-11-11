@@ -16,15 +16,9 @@ html {
   /*width: 100%;*/
   margin: 0 auto;
 }
+
 .wrapper {
-	margin-left: auto;
-	max-height: 25%;
-	max-width: 80%;
-}
-.left-column {
-	float:left;
-	padding-top: 8em;
-	padding-left: .5em;	
+  margin-left: auto;
 }
 
 body {
@@ -42,41 +36,28 @@ body {
   width: 350px;
   text-align:center;
   float:right;
-  margin: 2.5em; 
+  margin: 5em; 
 }
-
 
 /* Hide the images by default */
 .mySlides {
   display:none;
 }
 
-
-
-
 h1 {
   font-size: 2.488em; /* 39.813px */
 }
 
 h2 {
-  font-size: 2.074em; /* 33.178px */\
+  font-size: 2.074em; /* 33.178px */
 }
-div#index h2 {
-	font-size: 2em;
-	
 
-}
 h3 {
   font-size: 1.728em; /* 27.648px */
   font-weight: 500;
   line-height: 1.2em;
 }
-div#index h3 { /*affects index only*/
-  font-size: 1.728em; /* 27.648px */
-  font-weight: 500;
-  line-height: 1.2em;
-  text-align: center;	
-}
+
 h4 {
   font-size: 1.613em; /* halfway between 1.728 and 1.44 */
   font-weight: 500;
@@ -241,25 +222,30 @@ a {
   display: none;
   overflow: hidden;
 }
+
 fieldset h1 {
   font-family: 'Martel', serif;
-  font-size: 1.5em;
+  font-size: 1.55em;
 }
 
 fieldset input {
   padding: 10px 20px;
   margin-bottom: 15px;
   font-family: 'Roboto', sans-serif; 
-  font-size: 1.2em;
+  font-size: 1.17em;
 }
-
 
 fieldset label {
   margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-family: 'Roboto', sans-serif; 
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
+
+fieldset {
+    border: 0;
+}
+
 #parentDiv {
    width: 100%;
 }
@@ -271,14 +257,6 @@ fieldset label {
 #rightSlide {
    width: 50%;
 }
-#parentDiv {
-   width: 100%;
-}
-
-#leftForm {
-   width: 50%;
-}
-
 
 @media screen and (min-width: 768px) {
   body {
